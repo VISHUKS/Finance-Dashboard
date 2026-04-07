@@ -34,10 +34,7 @@ This project demonstrates real-world backend development with modular design, ro
 ## 📂 Project Structure
 
 ```bash
-## 📂 Project Structure (Accurate)
-
-```
-Finance-Dashboard-System/
+Finance Dashboard System/
 │
 ├── Controllers/
 │   ├── AuthController.cs
@@ -48,12 +45,13 @@ Finance-Dashboard-System/
 │
 ├── Models/
 │   ├── User.cs
-│   ├── Role.cs
 │   ├── Employee.cs
+│   ├── FinancialRecord.cs
+│   ├── Role.cs
 │   ├── Department.cs
 │   ├── Designation.cs
-│   ├── FinancialRecord.cs
 │   ├── Transaction.cs
+│   ├── (Other supporting models...)
 │
 ├── DTOs/
 │   ├── LoginDto.cs
@@ -66,22 +64,13 @@ Finance-Dashboard-System/
 │   ├── EmployeeService.cs
 │   ├── FinancialService.cs
 │
-├── Interfaces/
-│   ├── IAuthService.cs
-│   ├── IEmployeeService.cs
-│   ├── IFinancialService.cs
-│
 ├── Context/
 │   ├── ApplicationDbContext.cs
 │
 ├── Middleware/
 │   ├── ExceptionMiddleware.cs
 │
-├── Migrations/
-│
-├── appsettings.json
-├── Program.cs
-└── FinanceDashboardSystem.csproj
+└── Migrations/
 ```
 
 ---
